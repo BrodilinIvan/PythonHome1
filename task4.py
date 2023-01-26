@@ -13,8 +13,8 @@ num = int(input('Введите положительное число - '))
 def func(n):
     maxnum = 0
     while n > 0:
-      maxnum = max(maxnum, n % 10)
-      n //= 10
+        maxnum = max(maxnum, n % 10)
+        n //= 10
     return maxnum
 print(f'Самая большая цифра в числе: {func(num)}')
 
